@@ -22,31 +22,22 @@ This project serves as a foundational framework for building a robust CRM system
 
    ```bash
    git clone [repository_url]
-Usa il codice con cautela.
-content_copy
-Install Dependencies:
 
-Bash
-npm install
-Usa il codice con cautela.
-content_copy
-Start the Server:
+2. **Install dependencies:**
 
-Bash
-npm run dev
-Usa il codice con cautela.
-content_copy
-Access the Application:
+   ```bash
+   npm install (frontend & backend)
 
-Open your web browser and navigate to localhost:3000.
+3. **Set environment:** set file .env (front & backend) 
 
-Contributing:
+4. **Start local server:**
 
-We welcome contributions to this project! Feel free to create issues, suggest enhancements, or submit pull requests. Your valuable input is highly appreciated!
+   ```bash
+   npm run dev (frontend & backend)
 
-Additional Notes:
+5. **Contributing:** We welcome contributions to this project! Feel free to create issues, suggest enhancements, or submit pull requests. Your valuable input is highly appreciated!
 
-This project is intended as a starting point and can be further customized and extended to meet specific CRM requirements.
+5. **Additional Notes:**This project is intended as a starting point and can be further customized and extended to meet specific CRM requirements.
 Consider deploying the application to a production environment for real-world usage.
 Stay tuned for future updates and enhancements!
 Happy CRM Building!
