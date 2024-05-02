@@ -1,29 +1,21 @@
 "use client";
 
-import axios from "axios";
 import React from "react";
+import { createUser } from "../api/user";
 
 
 
-axios.defaults.baseURL = "http://localhost:3001";
 
 export default function FormPage() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [success, setSuccess] = React.useState(false);
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log({ name, email });
-
-    try {
-      await axios.post("/user", { name, email });
-      console.log(name, email);
-      setSuccess(true);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+    createUser({ name, email });
+    setSuccess(true);
+  }
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-4">
