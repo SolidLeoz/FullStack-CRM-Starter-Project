@@ -3,9 +3,9 @@
 import axios from "axios";
 import React from "react";
 
-const FRONTEND_URL = process.env.FRONTEND_URL;
 
-axios.defaults.baseURL = FRONTEND_URL;
+
+axios.defaults.baseURL = "http://localhost:3001";
 
 export default function FormPage() {
   const [name, setName] = React.useState("");

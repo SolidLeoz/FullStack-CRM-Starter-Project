@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Hello  my  World!');
+    res.send('Your backend is running!');
 })
 
 app.get('/users', async (req, res) => {
