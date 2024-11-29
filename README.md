@@ -4,7 +4,7 @@ This project serves as a foundational framework for building a robust CRM system
 
 **Tech Stack:**
 
-* ⚛️ Next.js: React framework for building modern and performant single-page applications.
+* ⚛️ Next.js: React framework for building modern and performant single-page applications (v 15)
 * ⚡️ Express.js: JavaScript framework for building fast and flexible Node.js web applications.
 *  **Node.js:** JavaScript runtime environment for executing server-side code.
 *  **MySQL:** Relational database management system for storing and managing CRM data.
@@ -31,14 +31,14 @@ This project serves as a foundational framework for building a robust CRM system
 3. **Generate Prisma Client:**
 
    ```bash
-   npx prisma generate (backend)
+   npx prisma migrate (backend)
 
 4. **Set environment:** set file .env (front & backend) 
 
 5. **Start local server:**
 
    ```bash
-   npm run dev (frontend & backend)
+   npm start (frontend & backend)
 
 6. **Contributing:** We welcome contributions to this project! Feel free to create issues, suggest enhancements, or submit pull requests. Your valuable input is highly appreciated!
 
